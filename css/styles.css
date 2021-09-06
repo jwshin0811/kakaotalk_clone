@@ -29,13 +29,15 @@ body {
   flex-direction: column;
   margin: 0px 30px;
 }
-.login-form input {
+.login-form__text,
+.login-form__btn,
+.login-form__link {
   border: none;
   padding: 20px 0px;
   font-size: 20px;
   margin-bottom: 20px;
 }
-.login-form input:not([type="submit"]) {
+.login-form__text {
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
 }
@@ -45,13 +47,13 @@ body {
 .login-form input:focus {
   border-color: rgba(0, 0, 0, 0.4);
 }
-.login-form input[type="submit"] {
+.login-form__btn {
   background-color: var(--yellow);
   cursor: pointer;
   font-size: 16px;
   border-radius: 3px;
 }
-.login-form a {
+.login-form__link {
   text-align: center;
   text-decoration: none;
   color: inherit;
