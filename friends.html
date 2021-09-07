@@ -23,53 +23,60 @@
       </div>
     </div>
 
-    <header class="title-bar">
-      <div class="title-bar__column">
+    <header class="screen-header">
+      <div class="screen-header__column">
         <span>Friends</span>
       </div>
-      <div class="title-bar__column">
+      <div class="screen-header__column">
         <i class="fas fa-search"></i>
         <i class="fas fa-music"></i>
         <i class="fas fa-cog"></i>
       </div>
     </header>
 
-    <div class="information">
+    <a id="friends-names-display" href="#">
       <i class="fas fa-info-circle"></i>
       <span>Firends' Names Display</span>
       <i class="fas fa-chevron-right"></i>
+    </a>
+
+    <div class="user-component">
+      <div class="user-componenet__column">
+        <img
+          class="user-component__avatar"
+          src="img/deer-graphic.jpg"
+          alt="graphic deer"
+        />
+        <div class="user-component__text">
+          <h4 class="user-component__title">NG</h4>
+        </div>
+      </div>
+      <div class="user-componenet__column"></div>
     </div>
 
-    <div class="my-profile">
-      <img
-        class="my-profile__photo"
-        src="img/profile__poodle.jpg"
-        alt="poodle"
-      />
-      <span class="my-profile__name">NG</span>
-    </div>
-
-    <nav>
-      <ul>
-        <li>
-          <a class="nav-bar__friends" href="friends.html"
-            ><i class="fas fa-user"></i
-          ></a>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fas fa-user fa-2x"></i>
+          </a>
         </li>
-        <li>
-          <a class="nav-bar__chats" href="chats.html"
-            ><i class="far fa-comment"></i
-          ></a>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__chats-notification">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
         </li>
-        <li>
-          <a class="nav-bar__find" href="find.html"
-            ><i class="fas fa-search"></i
-          ></a>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
         </li>
-        <li>
-          <a class="nav-bar__more" href="more.html"
-            ><i class="fas fa-ellipsis-h"></i
-          ></a>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__more-notification"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
         </li>
       </ul>
     </nav>

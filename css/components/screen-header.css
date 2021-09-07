@@ -1,0 +1,14 @@
+.screen-header {
+  background-color: rgb(256, 256, 256);
+  padding: 50px 0px 25px 15px;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.screen-header__column span {
+  font-weight: 600;
+}
+.screen-header__column i {
+  font-size: 25px;
+  margin-right: 20px;
+}
