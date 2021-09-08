@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - KakaoTalk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>08:13</span>
+      </div>
+      <div class="status-bar__column">
+        <span>61%</span>
+        <i class="fas fa-battery-half"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <div class="screen-header__column">
+        <span>Chats</span>
+      </div>
+      <div class="screen-header__column">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-comment-medical"></i>
+        <i class="fas fa-music"></i>
+        <i class="fas fa-cog"></i>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a class="user-component" href="chat-screen.html">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar-m"
+            src="img/lion-graphic.jpg"
+            alt="graphic lion"
+          />
+          <div class="user-component__text">
+            <h2 class="user-component__title user-component__title-m">Lion</h2>
+            <h4 class="user-component__detail user-component__detail-m">
+              *roar*
+            </h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">08:11</span>
+          <span class="user-component__notification">1</span>
+        </div>
+      </a>
+      <a class="user-component" href="#">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar-m"
+            src="img/dog-graphic.jpg"
+            alt="graphic dog"
+          />
+          <div class="user-component__text">
+            <h2 class="user-component__title user-component__title-m">Dog</h2>
+            <h4 class="user-component__detail user-component__detail-m">
+              Better a live dog than a dead lion.
+            </h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">07:27</span>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fas fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__chats-notification">1</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__more-notification"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/07cd09fcd7.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+.partition {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  border-top: 0.3px solid rgba(0, 0, 0, 0.1);
+}
+.partition__text,
+.partition__link {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+}

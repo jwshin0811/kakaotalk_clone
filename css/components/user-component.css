@@ -1,42 +1,97 @@
 .user-component,
+.user-component__text,
 .user-component__column:first-child,
-.user-component__text {
+.user-component__column:last-child {
   display: flex;
 }
-.user-component__text {
+
+.user-component {
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.user-component__text,
+.user-component__column:last-child {
   flex-direction: column;
   justify-content: center;
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.user-component__avatar__big {
-  width: 80px;
-  height: 80px;
-  border-radius: 30px;
+.user-component__column:last-child {
+  align-items: flex-end;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+
+.user-component__avatar {
   margin: 20px;
-}
-.user-component__title__big {
-  font-size: 25px;
-  font-weight: 600;
-}
-
-.user-component__avatar__medium {
   width: 70px;
   height: 70px;
   border-radius: 30px;
-  margin: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.user-component__title__medium {
+
+.user-component__avatar-l {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__avatar-m {
+  margin-bottom: 0px;
+}
+
+.user-component__avatar-s {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+  margin-bottom: 0px;
+}
+
+.user-component__title {
+  color: #2e363e;
   font-size: 25px;
   font-weight: 600;
 }
 
-.user-component__avatar__small {
-  width: 60px;
-  height: 60px;
-  border-radius: 25px;
-  margin: 20px;
+.user-component__title-m {
+  padding-bottom: 5px;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
 }
-.user-component__title__small {
+
+.user-component__title-s {
   font-size: 20px;
   font-weight: 400;
+  margin-top: 20px;
+}
+
+.user-component__detail {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__detail-m {
+  padding-top: 5px;
+  font-size: 18px;
+}
+
+.user-component__detail-s {
+  font-size: 15px;
+}
+
+.user-component__time {
+  padding: 7px;
+  padding-right: 0px;
+}
+
+.user-component__notification {
+  background-color: tomato;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  padding: 5px;
 }
