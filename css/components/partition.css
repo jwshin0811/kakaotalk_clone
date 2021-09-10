@@ -6,7 +6,12 @@
 }
 .partition__text,
 .partition__link {
-  margin-top: 10px;
+  margin-top: 15px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 15px;
+  font-weight: 500;
+}
+.partition__link {
+  color: rgba(0, 0, 0, 0.3);
+  text-decoration: none;
 }
